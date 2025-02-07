@@ -1,0 +1,33 @@
+body {
+    background-image: url('bf16ad15-c564-579f-b55c-53d428635e0b.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 8vh;
+}
+
+h1,
+h4,
+form {
+    text-align: center;
+    font-size: 4vw;
+    margin: 10px;
+    color: #001F3F;
+}
+
+button {
+    width: 20vw;
+    height: 8vh;
+    font-size: 3vw;
+    min-height: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+#break {
+    height: 1vw;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get another Joke | joketeller17.com</title>
+    <link rel="icon" href="R.png" type="image/x-icon">
+    <link href="{{ url_for('static', filename='styles/style.css')}}" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Here is your joke</h1>
+    <h4 class="joke">{{ ddjoke }}</h4>
+    <br id="break">
+    <h4>Click the button below to get another joke</h4>
+    <form action="/joke">
+        <button>Get Joke</button>
+    </form>
+</body>
+
+</html>
